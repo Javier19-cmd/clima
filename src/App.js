@@ -27,7 +27,7 @@ const AppLabel = styled.span`
 function App() {
   return <Container>
   <AppLabel>Aplicación para el clima</AppLabel>
-  <CityComponent />
+  <WeatherComponent />
   </Container>
 }
 

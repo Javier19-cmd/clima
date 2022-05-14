@@ -38,9 +38,12 @@ const SearchoBox = styled.form`
   & button{
     padding: 10px;
     font-size: 14px;
+    color: white;
+    background-color: black;
     border: none;
     outline: none;
     font-weight: bold;
+    cursor: pointer;
   }
 `
 

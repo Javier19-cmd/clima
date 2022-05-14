@@ -6,8 +6,6 @@ import WeatherComponent from "./modules/WeatherInfoComponent"
 import { useState } from "react"
 import axios from "axios"
 
-const API_KEY="fe4feefa8543e06d4f3c66d92c61b69c"
-
 //Estilo del contenedor 1.
 const Container = styled.div`
   display:flex; 
@@ -39,7 +37,7 @@ function App() {
   const fetchWeather = async (e) => {
     e.preventDefault()
    const response = 
-   await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
+   await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fe4feefa8543e06d4f3c66d92c61b69c`)
    updateWeather(response.data)
   }
 

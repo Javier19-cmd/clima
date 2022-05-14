@@ -1,12 +1,31 @@
 // Componente que busca la info del clima.
 import styled from 'styled-components'
 
+// Íconos del clima para el sunset, sunrise, humedad y viento.
 export const WeatherInfoIcons = {
   sunset: "./icono/temp.svg",
   sunrise: "./icono/temp.svg",
   humidity: "./icono/humidity.svg",
   wind: "./icono/wind.svg",
   pressure: "./icono/pressure.svg",
+}
+
+// Íconos del clima.
+export const WeatherIcons = {
+  "01d": "./icono/sunny.svg",
+  "01n": "./icono/night.svg",
+  "02d": "./icono/day.svg",
+  "02n": "./icono/cloudy-night.svg",
+  "03d": "./icono/cloudy.svg",
+  "03n": "./icono/cloudy.svg",
+  "04d": "./icono/perfect-day.svg",
+  "04n": "./icono/cloudy-night.svg",
+  "09d": "./icono/rain.svg",
+  "09n": "./icono/rain-night.svg",
+  "10d": "./icono/rain.svg",
+  "10n": "./icono/rain-night.svg",
+  "11d": "./icono/storm.svg",
+  "11n": "./icono/storm.svg",
 }
 
 /*Propiedades del climna*/
@@ -103,8 +122,10 @@ const WeatherComponent = (props) => {
   
   const { weather } = props
   const isDay = weather?.weather[0].icon?.includes('d')
+  
+  // Obteniendo la hora del país que se buscó.
   const getTime = (timeStamp) => {
-    return `${new Date(timeStamp * 100).getHours()} : ${new Date(timeStamp * 1000).getMinutes()}`
+    return `${new Date(timeStamp * 1000).getHours()} : ${new Date(timeStamp * 1000).getMinutes()}`
   }
   
   return (
@@ -113,14 +134,14 @@ const WeatherComponent = (props) => {
         <Condition><span>{`${Math.floor(weather?.main?.temp-273)}|°C`}</span> 
         {`| ${weather?.weather[0].description}`}
         </Condition>
-        <WeatherLogo src="./icono/perfect-day.svg" />
+        <WeatherLogo src={WeatherIcons[weather?.weather[0].icon]} />
       </WeatherCondition>
       <Location>{`${weather?.name}, ${weather?.sys?.country}`}</Location>
       <WeatherInfoLabel>Información del clima</WeatherInfoLabel>
       <WeatherInfoContainer>
         <WeatherinfoComponent 
-          name={isDay ? "Sunset" : "sunrise"} 
-          value={getTime(weather?.sys[isDay ? "Sunset" : "sunrise"])}
+          name={isDay ? "sunset" : "sunrise"} 
+          value={getTime(weather?.sys[isDay ? "sunset" : "sunrise"])}
         />
         <WeatherinfoComponent name="humidity" value={weather?.main?.humidity} />
         <WeatherinfoComponent name="wind" value={weather?.wind?.speed} />

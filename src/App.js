@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 import CityComponent from "./modules/CityComponent"
-import WeatherComponent from "components/WeatherComponent"
+import WeatherComponent from "./modules/WeatherInfoComponent"
 
 //Estilo del contenedor 1.
 const Container = styled.div`
@@ -26,9 +26,8 @@ const AppLabel = styled.span`
 
 function App() {
   return <Container>
-  <AppLabel>React Weather App</AppLabel>
+  <AppLabel>Aplicación para el clima</AppLabel>
   <CityComponent />
-  <WeatherComponent />
   </Container>
 }
 

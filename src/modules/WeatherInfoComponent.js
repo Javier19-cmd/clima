@@ -1,6 +1,14 @@
 // Componente que busca la info del clima.
 import styled from 'styled-components'
 
+export const WeatherInfoIcons = {
+  sunset: "./icono/temp.svg",
+  sunrise: "./icono/temp.svg",
+  humidity: "./icono/humidity.svg",
+  wind: "./icono/wind.svg",
+  pressure: "./icono/pressure.svg",
+}
+
 /*Propiedades del climna*/
 const WeatherCondition = styled.div`
   display: flex;
@@ -40,6 +48,57 @@ const WeatherInfoLabel = styled.span`
   width: 90%;
 `
 
+/*Contenedor de la info del clima*/
+const WeatherInfoContainer = styled.div`
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+`
+
+/* Propiedades del infoContainer */
+const InfoContainer = styled.div`
+  display: flex;
+  margin: 5px 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+`
+
+/* Propiedades de los íconos */
+const InfoIcon = styled.img`
+  width: 36px;
+  height: 36px; 
+`
+
+/*Propiedades de los labels de la info*/
+const InfoLabel = styled.span`
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 15px;
+  & span {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+`
+
+/*Función que obtendrá el clima*/
+const WeatherinfoComponent = (props) => {
+  const { name, value } = props
+  return(
+    <InfoContainer>
+      <InfoIcon src={WeatherInfoIcons[name]}/>
+      <InfoLabel>
+        {value}
+        <span>{name}</span>
+      </InfoLabel>
+    </InfoContainer>
+  )
+}
+
 const WeatherComponent = () => {
   return (
     <>
@@ -49,7 +108,13 @@ const WeatherComponent = () => {
         <WeatherLogo src="./icono/perfect-day.svg" />
       </WeatherCondition>
       <Location>London, GB</Location>
-      <WeatherInfoLabel>Información del clima</WeatherInfoLabel> 
+      <WeatherInfoLabel>Información del clima</WeatherInfoLabel>
+      <WeatherInfoContainer>
+        <WeatherinfoComponent name="sunrise" value="2332" />
+        <WeatherinfoComponent name="humidity" value="432" />
+        <WeatherinfoComponent name="wind" value="423" />
+        <WeatherinfoComponent name="pressure" value="42432" />
+      </WeatherInfoContainer>
     </>
   )
 }

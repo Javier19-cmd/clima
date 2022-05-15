@@ -138,14 +138,14 @@ const WeatherComponent = (props) => {
         <Condition><span>{`${Math.floor(weather?.main?.temp-273)}|°C`}</span> 
         {`| ${weather?.weather[0].description}`}
         </Condition>
-        <WeatherLogo src={WeatherIcons[weather?.weather[0].icon]} />
+        <WeatherLogo src={WeatherIcons[weather?.weather[0].icon]} /> {/*Logo que se pone a la par de la temperatura*/}
       </WeatherCondition>
-      <Location>{`${weather?.name}, ${weather?.sys?.country}`}</Location>
+      <Location>{`${weather?.name}, ${weather?.sys?.country}`}</Location> {/*Obteniendo la información del país*/}
       <WeatherInfoLabel>Información del clima</WeatherInfoLabel>
       <WeatherInfoContainer>
         <WeatherinfoComponent 
-          name={isDay ? "sunset" : "sunrise"} 
-          value={getTime(weather?.sys[isDay ? "sunset" : "sunrise"])}
+          name={isDay ? "sunset" : "sunrise"} /*Viendo si es de día o de tarde*/
+          value={getTime(weather?.sys[isDay ? "sunset" : "sunrise"])} /*Ponienod la hora*/
         />
         <WeatherinfoComponent name="humidity" value={weather?.main?.humidity} />
         <WeatherinfoComponent name="wind" value={weather?.wind?.speed} />

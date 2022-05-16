@@ -1,4 +1,3 @@
-
 Para poder correr el app se debe ejecutar el comando de npm start, para que así se pueda levantar un servidor en la computadora y verlo en internet.
 
 La página local para ver el proyecto es: http://localhost:3000

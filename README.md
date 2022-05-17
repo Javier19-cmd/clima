@@ -25,3 +25,16 @@ Los usuarios pueden recibir ayuda con respecto al proyecto escribiéndome al inb
 # Quién mantiene y contribuye con el proyecto
 
 En estos momentos, únicamente soy yo el que mantiene y contribuye al proyecto, dado que es un proyecto personal de la universidad.
+
+
+# Teconlogías que se están usando en el proyecto
+
+Para el presente proyecto, se está usando HTML, CSS y JavaScript.
+
+En el caso de HTML, se escogió esta tecnología, pues es bastante adaptable y amigable con JavaScript y CSS. Asimismo, esta tecnología se usa para poder compilar el proyecto entero. Esta es una tecnología que sí usaría otra vez para poder programar otro proyecto, pues es muy sencilla de usar y casi no presenta errores al momento de que se está usando.
+
+CSS se escogió como tecnología de diseño para poderle dar una mejor estética a la página que se programó. Asimismo, esta es una tecnología que tiene bastante documentación y videos de apoyo. Esta es una tecnología que sí usaría otra vez para poder programar otra página, pues es la base de un buen diseño web. Esta tecnología la escogería también, pues presenta una gran facilidad para hacer enlazado en las páginas web creadas con HTML y JavaScript.
+
+Por último, JavaScript se usó para poder programar toda la lógica del sitio web. También se usó para poder obtener la información del API utilizada. Este lenguaje es una tecnología que usaría nuevamente en la construcción de una página web, pues posee una gran volatilidad y posee una gran cantidad de documentación. Asimismo, JavasScript posee las tecnologías más modernas de internet. 
+
+

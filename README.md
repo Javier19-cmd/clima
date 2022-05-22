@@ -29,12 +29,15 @@ En estos momentos, únicamente soy yo el que mantiene y contribuye al proyecto, 
 
 # Teconlogías que se están usando en el proyecto
 
-Para el presente proyecto, se está usando HTML, CSS y JavaScript.
+Para el presente proyecto, se está usando React, Axios y Styled-Components.
 
-En el caso de HTML, se escogió esta tecnología, pues es bastante adaptable y amigable con JavaScript y CSS. Asimismo, esta tecnología se usa para poder compilar el proyecto entero. Esta es una tecnología que sí usaría otra vez para poder programar otro proyecto, pues es muy sencilla de usar y casi no presenta errores al momento de que se está usando.
+En el caso de React, se escogió esta tecnología para poder darle una mejor y más rápida interacción al usuario con la aplicación. Asimismo, esta teconología es una de las encargadas para poder mantener levantado el proyecto sin ningún problema. 
+Esta tecnología la utilizaría nuevamente para otro proyecto de React, puesto que aún se mantiene muy vigente en el ámbito del dearrollo web y de aplicaciones móviles.
 
-CSS se escogió como tecnología de diseño para poderle dar una mejor estética a la página que se programó. Asimismo, esta es una tecnología que tiene bastante documentación y videos de apoyo. Esta es una tecnología que sí usaría otra vez para poder programar otra página, pues es la base de un buen diseño web. Esta tecnología la escogería también, pues presenta una gran facilidad para hacer enlazado en las páginas web creadas con HTML y JavaScript.
+Axios es la tecnología que se encarga de poder mandar a traer los datos que se encuentran en el API del clima. Esta tecnología es la encargada de poder recibir toda la información que se necesita al momento de que el usuario ingresa una ciudad en donde se 
+quiera ver el clima. Esta tecnología la utilizaría en ciertos futuros proyectos, dado que es bastante similar al método fetch que se usa también en JavaScript. Asimismo, es una tecnología que tiene bastante documentación como videos, artículos y aún es mantenida
+por los propios desarrolladores. 
 
-Por último, JavaScript se usó para poder programar toda la lógica del sitio web. También se usó para poder obtener la información del API utilizada. Este lenguaje es una tecnología que usaría nuevamente en la construcción de una página web, pues posee una gran volatilidad y posee una gran cantidad de documentación. Asimismo, JavasScript posee las tecnologías más modernas de internet. 
-
-
+Finalmente, se usó Styled-Components para poder darle estilo a todo lo visual que se encontraba en la aplicación web. Esta tecnología la usaría nuevamente para futuros proyectos que tenga que programar, dado que esta es la encargada de poder diseñar correctamente
+un sitio web responsive sin ningún problema. Asimismo, es una tecnología que aún sigue siendo muy respaldada por los creadores y la comunidad activa de programadores web. Por otro lado, esta es una tecnología que casi es la única en poder mantener el diseño web de 
+una página.

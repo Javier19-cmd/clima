@@ -3,33 +3,33 @@ import styled from 'styled-components'
 
 // Íconos del clima para el sunset, sunrise, humedad y viento.
 export const WeatherInfoIcons = {
-  sunset: "./icono/temp.svg",
-  sunrise: "./icono/temp.svg",
-  humidity: "./icono/humidity.svg",
-  wind: "./icono/wind.svg",
-  pressure: "./icono/pressure.svg",
+  sunset: "./Icono/temp.svg",
+  sunrise: "./Icono/temp.svg",
+  humidity: "./Icono/humidity.svg",
+  wind: "./Icono/wind.svg",
+  pressure: "./Icono/pressure.svg",
 }
 
 // Íconos del clima.
 export const WeatherIcons = {
-  "01d": "./icono/sunny.svg",        // Código para cuando está despejado de día.
-  "01n": "./icono/night.svg",        // Código para cuando está despejado de noche.
-  "02d": "./icono/day.svg",          // Código para pocas nubes de día.
-  "02n": "./icono/cloudy-night.svg", // Código para pocas nubes de noche.
-  "03d": "./icono/cloudy.svg",       // Código para nubes dispersas de día.
-  "03n": "./icono/cloudy.svg",       // Código para nubes dispersas de noche.
-  "04d": "./icono/perfect-day.svg",  // Código para nublado de día.
-  "04n": "./icono/cloudy-night.svg", // Código para nublado de noche.
-  "09d": "./icono/rain.svg",         // Código para lluvia de día.
-  "09n": "./icono/rain-night.svg",   // Código para lluvia de noche.
-  "10d": "./icono/lluvia.svg",       // Código para lluvia de día. 
-  "10n": "./icono/lluvia.svg",       // Código para lluvia de noche. 
-  "11d": "./icono/storm.svg",        // Código para tormenda de día.
-  "11n": "./icono/storm.svg",        // Código para tormenta de noche.
-  "13d": "./icono/snow.svg",         // Código para nieve de día.
-  "13n": "./icono/snow.svg",         // Código para nieve de noche.
-  "50d": "./icono/tornado.svg",      // Código para otros eventos como tornados durante el día.
-  "50n": "./icono/tornado.svg",      // Código para otros eventos como tornados durante la noche.
+  "01d": "./Icono/sunny.svg",        // Código para cuando está despejado de día.
+  "01n": "./Icono/night.svg",        // Código para cuando está despejado de noche.
+  "02d": "./Icono/day.svg",          // Código para pocas nubes de día.
+  "02n": "./Icono/cloudy-night.svg", // Código para pocas nubes de noche.
+  "03d": "./Icono/cloudy.svg",       // Código para nubes dispersas de día.
+  "03n": "./Icono/cloudy.svg",       // Código para nubes dispersas de noche.
+  "04d": "./Icono/perfect-day.svg",  // Código para nublado de día.
+  "04n": "./Icono/cloudy-night.svg", // Código para nublado de noche.
+  "09d": "./Icono/rain.svg",         // Código para lluvia de día.
+  "09n": "./Icono/rain-night.svg",   // Código para lluvia de noche.
+  "10d": "./Icono/lluvia.svg",       // Código para lluvia de día. 
+  "10n": "./Icono/lluvia.svg",       // Código para lluvia de noche. 
+  "11d": "./Icono/storm.svg",        // Código para tormenda de día.
+  "11n": "./Icono/storm.svg",        // Código para tormenta de noche.
+  "13d": "./Icono/snow.svg",         // Código para nieve de día.
+  "13n": "./Icono/snow.svg",         // Código para nieve de noche.
+  "50d": "./Icono/tornado.svg",      // Código para otros eventos como tornados durante el día.
+  "50n": "./Icono/tornado.svg",      // Código para otros eventos como tornados durante la noche.
 }
 
 /*Propiedades del climna*/

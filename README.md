@@ -8,7 +8,7 @@ La página local para ver el proyecto es: http://localhost:3000
 
 # Qué hace el proyecto
 
-Actualmente, el proyecto lo que hace es poder dar información del clima mediante un API. Asimismo, da la la información de la hora, si es de día o de noche, la humedad, la velocidad del viento en el país y la velocidad del viento. Adicional a la información que brinda el API, la página web puede darle un ícono del clima en base a como se encuentre el clima en el país buscado, así como la hora del mismo.
+Actualmente, el proyecto lo que hace es poder dar información del clima mediante un API. Asimismo, da la información de la hora, si es de día o de noche, la humedad, la velocidad del viento en el país y la velocidad del viento. Adicional a la información que brinda el API, la página web puede darle un ícono del clima en base a como se encuentre el clima en el país buscado, así como la hora del mismo.
 
 # Por qué el proyecto es útil
 

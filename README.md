@@ -2,9 +2,9 @@
 
 # Creando proyecto personal
 
-Para poder correr el app se debe ejecutar el comando de npm start, para que así se pueda levantar un servidor en la computadora y verlo en internet.
+Si en caso el programador clonó el repositorio de manera local, lo que se debe hacer es abrir una conssola, ya sea en el compilador o en la carpeta en donde se tiene clonado el proyecto y escribir npm install, para poder descargar todas las dependencias y módulos que se utilizaron en el desarrollo del proyecto. Luego de haber hecho la insalación, se recomienda escribir en esa misma consola el siguiente comando: npm start. El anterior comando sirve para poder el proyecto en el puerto 3000 de la computadora del programador y verlo funcionar en el navegador.
 
-La página local para ver el proyecto es: http://localhost:3000
+La página local para ver el proyecto es: http://localhost:3000. Esti es recomendable escribirlo en caso de que no se haya podido abrir de manera automática el proyecto en el navegador.
 
 # Qué hace el proyecto
 

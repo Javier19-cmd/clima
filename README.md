@@ -2,13 +2,13 @@
 
 # Creando proyecto personal
 
-Si en caso el programador clonó el repositorio de manera local, lo que se debe hacer es abrir una conssola, ya sea en el compilador o en la carpeta en donde se tiene clonado el proyecto y escribir npm install, para poder descargar todas las dependencias y módulos que se utilizaron en el desarrollo del proyecto. Luego de haber hecho la insalación, se recomienda escribir en esa misma consola el siguiente comando: npm start. El anterior comando sirve para poder el proyecto en el puerto 3000 de la computadora del programador y verlo funcionar en el navegador.
+Si en caso el programador clonó el repositorio de manera local, lo que se debe hacer es abrir una consola, ya sea en el compilador o en la carpeta en donde se tiene clonado el proyecto y escribir npm install, para poder descargar todas las dependencias y módulos que se utilizaron en el desarrollo del proyecto. Luego de haber hecho la insalación, se recomienda escribir en esa misma consola el siguiente comando: npm start. El anterior comando sirve para poder el proyecto en el puerto 3000 de la computadora del programador y verlo funcionar en el navegador.
 
-La página local para ver el proyecto es: http://localhost:3000. Esti es recomendable escribirlo en caso de que no se haya podido abrir de manera automática el proyecto en el navegador.
+La página local para ver el proyecto es: http://localhost:3000. Esto es recomendable escribirlo en caso de que no se haya podido abrir de manera automática el proyecto en el navegador.
 
 # Qué hace el proyecto
 
-Actualmente, el proyecto lo que hace es poder dar información del clima y la hora que se tiene en una ciudad mediante un API. Para poder acceder a esta información, lo que se debe hacer es escribr el nombre de la ciudad desea en la página principal de la aplicación desarrollada. La infomración que da el programa es la siguiente: la hora que se tiene en el país, un ícono especial para indicar si en la ciudad es de día, tarde o noche, o por otro lado si existiera algùn tipo de situación climática especial en la ciuidad, la humedad que hay en la ciudad de consultada, la velocidad del viento en la ciudad, la presión que se tiene en la ciudad y la temperatura en grados centígrados de la misma.
+Actualmente, el proyecto lo que hace es poder dar información del clima y la hora que se tiene en una ciudad mediante un API. Para poder acceder a esta información, lo que se debe hacer es escribr el nombre de la ciudad deseada en la página principal de la aplicación desarrollada. La infomración que da el programa es la siguiente: la hora que se tiene en el país, un ícono especial para indicar si en la ciudad es de día, tarde o noche, o por otro lado si existiera algùn tipo de situación climática especial en la ciuidad, la humedad que hay en la ciudad de consultada, la velocidad del viento en la ciudad, la presión que se tiene en la ciudad y la temperatura en grados centígrados de la misma en el instante que se solicitó.
 
 # Por qué el proyecto es útil
 

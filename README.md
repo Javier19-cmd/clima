@@ -8,7 +8,7 @@ La página local para ver el proyecto es: http://localhost:3000. Esti es recomen
 
 # Qué hace el proyecto
 
-Actualmente, el proyecto lo que hace es poder dar información del clima y la hora que se tiene en una ciudad mediante un API. Para poder acceder a esta información, lo que se debe hacer es escribr el nombre de la ciudad desea en la página principal de la aplicación desarrollada. La infomración que da el programa es la siguiente: la hora que se tiene en el país, un ícono especial para indicar si en la ciudad es de día, tarde o noche, o por otro si existiera algún tornado o situación climática especial, la humedad que hay en la ciudad de consultada, la velocidad del viento en la ciudad, la presión que se tiene en la ciudad y la temperatura de la misma.
+Actualmente, el proyecto lo que hace es poder dar información del clima y la hora que se tiene en una ciudad mediante un API. Para poder acceder a esta información, lo que se debe hacer es escribr el nombre de la ciudad desea en la página principal de la aplicación desarrollada. La infomración que da el programa es la siguiente: la hora que se tiene en el país, un ícono especial para indicar si en la ciudad es de día, tarde o noche, o por otro lado si existiera algùn tipo de situación climática especial en la ciuidad, la humedad que hay en la ciudad de consultada, la velocidad del viento en la ciudad, la presión que se tiene en la ciudad y la temperatura en grados centígrados de la misma.
 
 # Por qué el proyecto es útil
 
